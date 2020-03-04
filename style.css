@@ -1,0 +1,26 @@
+html{
+
+    background-color: #222222;
+
+}
+
+#jeetjejoh{
+    width: 500px;
+    height: 300px;
+}
+
+select{
+    background-color: #222222;
+    color: white;
+    overflow-y: auto;
+}
+
+
+p{
+
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #FFFFFF;
+
+}
