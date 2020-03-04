@@ -23,3 +23,13 @@ function selectPhone(){
 function updateTextInput(val) {
     document.getElementById('textInput').value=val; 
 }
+
+function generateRandom(){
+    
+    var number = Math.floor(Math.random() * 9000000000) + 1000000000;
+
+    var body = document.getElementById("randomNumber");
+    
+    body.innerHTML = number + " <br /> Is this not your number? click generate again to try again";
+
+}

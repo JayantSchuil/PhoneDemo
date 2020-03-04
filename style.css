@@ -5,8 +5,14 @@ html{
 }
 
 #PhoneDiv{
-    width: 500px;
+    margin: 10px;
+    width: 33%;
     height: 300px;
+    border-bottom: 3px solid #FFFFFF;
+}
+
+span{
+    color: white;
 }
 
 select{
