@@ -7,7 +7,7 @@ html{
 #PhoneDiv{
     margin: 10px;
     width: 33%;
-    height: 300px;
+    height: 200px;
     border-bottom: 3px solid #FFFFFF;
 }
 
@@ -29,4 +29,8 @@ p{
     font-family: sans-serif;
     color: #FFFFFF;
 
+}
+
+a{
+    color: white;
 }
