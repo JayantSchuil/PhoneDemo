@@ -23,6 +23,21 @@
     <span id="randomNumber"></span>
 </div>
 
+<div id="PhoneDiv" class="slider">
+    <p>This is your phone number:</p>
+
+
+    <span id="randomStatic"></span> <br />
+    <span>This is your number, if it isn't please message your carrier so they can change it for you</span>
+    <script>
+        var randomNum = Math.floor(Math.random() * 9000000000) + 1000000000;
+
+        var body = document.getElementById("randomStatic");
+        body.innerHTML = randomNum
+
+    </script>
+</div>
+
 </body>
 </html>
 <script src="sketch.js"></script>
